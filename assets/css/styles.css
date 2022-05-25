@@ -140,6 +140,11 @@ img {
     .main {
         flex-direction: column;
         border: 2px solid #EC4067;
+        align-items: center;
+    }
+    .bike {
+        border: 2px solid #EC4067;
+        align-items: center;
     }
     img {
         width: 95%;
@@ -157,7 +162,7 @@ img {
     .left1 {
         width: 100%;
     }
-    /* to be changed latter */
+    /* to be changed latter after a succesive responsive nav bar is done*/
     .nav>.links ul {
         display: none;
     }
