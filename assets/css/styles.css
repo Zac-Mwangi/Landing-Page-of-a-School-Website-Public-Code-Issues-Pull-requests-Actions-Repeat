@@ -139,7 +139,7 @@ img {
     /* header and footer */
     .main {
         flex-direction: column;
-        border: 2px solid red;
+        /* border: 2px solid #EC4067; */
     }
     img {
         width: 95%;
@@ -151,7 +151,7 @@ img {
     /* body */
     .main1 {
         flex-direction: column;
-        border: 2px solid red;
+        border: 2px solid #EC4067;
     }
     .body>.body1>.main1>.right1,
     .left1 {
