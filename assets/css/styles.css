@@ -27,21 +27,56 @@
 
 .body>.main {
     display: flex;
-    /* border: 2px solid red; */
 }
 
 .body>.main>.right,
 .left {
     width: 50%;
-    /* border: 2px solid red; */
 }
 
 .body>.main>.right>img {
-    width: 50vh;
-    /* border: 2px solid red; */
+    /* width: 80vh; */
 }
 
 .body>.main>.left>.content>.enrollExplore {
     display: flex;
     gap: 30px;
+}
+
+
+/* remaining the buttons */
+
+
+/* body2 */
+
+.body1 {
+    margin-top: 30px;
+}
+
+.body>.body1>.main1 {
+    display: flex;
+    margin-top: 2cm;
+}
+
+.body>.body1>.main1>.right1,
+.left1 {
+    width: 50%;
+}
+
+.body>.body1>.main1>.right1>img {
+    /* width: 80vh; */
+}
+
+.body>.body1>.main1>.left1>img {
+    /* width: 80vh; */
+}
+
+.body>.project {
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    border: 2px solid rebeccapurple;
+}
+
+img {
+    height: 50vh;
 }
