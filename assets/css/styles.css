@@ -40,3 +40,8 @@
     width: 50vh;
     /* border: 2px solid red; */
 }
+
+.body>.main>.left>.content>.enrollExplore {
+    display: flex;
+    gap: 30px;
+}
