@@ -33,30 +33,30 @@
 
 /* LETS STYLE THE HEADER */
 
-.body>.main {
+.main {
     display: flex;
     align-items: center;
 }
 
-.body>.main>.right,
+.main>.right,
 .left {
     width: 50%;
 }
 
-.body>.main>.right>img {
+.main>.right>img {
     /* width: 80vh; */
 }
 
-.body>.main>.left>.content>.enrollExplore {
+.main>.left>.content>.enrollExplore {
     display: flex;
     gap: 30px;
 }
 
-.body>.main>.left>.content>.hh {
+.main>.left>.content>.hh {
     /* color: #EC4067; */
 }
 
-.body>.main>.left>.content>.pp {
+.main>.left>.content>.pp {
     color: #EC4067;
     font-size: 25px;
 }
@@ -135,7 +135,7 @@ img {
     color: #EC4067;
 }
 
-@media screen and (max-width: 2730px) {
+@media screen and (max-width: 1000px) {
     /* header and footer */
     .main {
         flex-direction: column;
