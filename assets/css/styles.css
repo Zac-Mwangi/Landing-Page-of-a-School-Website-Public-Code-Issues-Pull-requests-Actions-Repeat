@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins';
     padding: 5px;
+    font-size: 20px;
 }
 
 
@@ -80,4 +81,17 @@
 
 img {
     height: 50vh;
+}
+
+.btn1 {
+    border: none;
+    color: #fff;
+    background-color: #EC4067;
+    border-radius: 5px;
+}
+
+.btn2 {
+    border: 1px solid #EC4067;
+    color: #EC4067;
+    background-color: #fff;
 }
