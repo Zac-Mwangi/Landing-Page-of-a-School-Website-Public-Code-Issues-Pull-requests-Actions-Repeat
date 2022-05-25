@@ -6,3 +6,18 @@
 
 
 /* lets style the nav */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav>.links ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.body {
+    padding: 20px;
+}
