@@ -21,3 +21,22 @@
 .body {
     padding: 20px;
 }
+
+
+/* LETS STYLE THE HEADER */
+
+.body>.main {
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.body>.main>.right,
+.left {
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.body>.main>.right>img {
+    width: 50vh;
+    /* border: 2px solid red; */
+}
