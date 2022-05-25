@@ -135,11 +135,11 @@ img {
     color: #EC4067;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 2730px) {
     /* header and footer */
     .main {
         flex-direction: column;
-        /* border: 2px solid #EC4067; */
+        border: 2px solid #EC4067;
     }
     img {
         width: 95%;
@@ -156,5 +156,9 @@ img {
     .body>.body1>.main1>.right1,
     .left1 {
         width: 100%;
+    }
+    /* to be changed latter */
+    .nav>.links ul {
+        display: none;
     }
 }
