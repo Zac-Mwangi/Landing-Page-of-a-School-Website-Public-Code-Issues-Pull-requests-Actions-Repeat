@@ -157,6 +157,13 @@ img {
     color: #EC4067;
 }
 
+
+/* BIKE PROJECT TITLE */
+
+.bikepj {
+    margin-top: 50PX;
+}
+
 @media screen and (max-width: 1000px) {
     /* header and footer */
     .main {
