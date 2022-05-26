@@ -61,9 +61,31 @@
     font-size: 25px;
 }
 
+.tm {
+    color: #EC4067;
+}
+
 h2 {
     color: black;
 }
+
+
+/* tms part */
+
+.tms {
+    display: flex;
+}
+
+.tms>.tm1 {
+    width: 25%;
+}
+
+.tms>.tm1>.up>img {
+    width: 95%;
+}
+
+
+/* end of tms */
 
 
 /* remaining the buttons */
@@ -166,4 +188,13 @@ img {
     .nav>.links ul {
         display: none;
     }
+    /* TMS */
+    .tms {
+        flex-direction: column;
+        border: 2px solid #EC4067;
+    }
+    .tms>.tm1 {
+        width: 95%;
+    }
+    /* END OF TMS */
 }
